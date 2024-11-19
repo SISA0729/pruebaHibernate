@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="@localhost" uuid="8337e053-4744-49fc-bd4e-6ba5a8660eee">
-      <driver-ref>oracle.19</driver-ref>
+    <data-source source="LOCAL" name="sisa@localhost" uuid="ac38820c-e589-4201-9287-34ee426567a6">
+      <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>
-      <auto-commit>false</auto-commit>
-      <jdbc-driver>oracle.jdbc.OracleDriver</jdbc-driver>
-      <jdbc-url>jdbc:oracle:thin:@localhost:1521:XE</jdbc-url>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/sisa</jdbc-url>
       <jdbc-additional-properties>
         <property name="com.intellij.clouds.kubernetes.db.host.port" />
         <property name="com.intellij.clouds.kubernetes.db.enabled" value="false" />
